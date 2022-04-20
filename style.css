@@ -62,7 +62,7 @@
     align-items:center;
 }
 #home::before{
-    background:url('/img/bg12.jpg');
+    background:url('./img/bg12.jpg');
     content: "";
     background-color: black;
     position: absolute;
@@ -123,7 +123,7 @@
 #client-section::before{
     content: "";
     position: absolute;
-    background:url('/img/bg4.jpg');
+    background:url('./img/bg4.jpg');
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -148,7 +148,7 @@
 #contact{
     margin: 30px 0px 0px 0px ;
     right:0px;
-    background: url(/img/contact.jpg)  ;
+    background: url(./img/contact.jpg)  ;
 
 }
 #contact::before{
@@ -159,7 +159,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.3;
-    background:url('/img/bg12.jpg') no-repeat;
+    background:url('./img/bg12.jpg') no-repeat;
     
 }
 #contact-box{
